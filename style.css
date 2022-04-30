@@ -1,0 +1,157 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header and nav */
+
+header {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+.logo {
+    color: blue;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.cta button {
+    width: 120px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+@media all and (max-width:800px) {
+    header {
+        display: block;
+        padding: 40px;
+        align-self: center;
+    }
+}
+
+
+/* end header and nav  */
+
+h1 {
+    font-size: 50px;
+    padding: 20px 150px;
+    margin-bottom: 0px;
+    color: yellow;
+}
+
+p {
+    font-size: 15px;
+    padding: 0px 150px;
+    margin-top: 0;
+    line-height: 1.3em;
+    ;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    padding: 20px auto;
+}
+
+.img-con {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 20px 150px;
+}
+
+.cont1,
+.cont2 {
+    width: 40%;
+}
+
+p.text {
+    padding: 0;
+    margin: 0;
+}
+
+.sec {
+    background-color: #303030;
+    display: flex;
+    height: 280px;
+    padding-top: 20px;
+}
+
+.so-text {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.so-text h2 {
+    text-align: center;
+    color: yellow;
+}
+
+.so-text2 {
+    padding-top: 20px;
+}
+
+.foot {
+    display: block;
+    width: 700px;
+}
+
+.foot h2 {
+    margin-left: 150px;
+    color: yellow;
+    ;
+}
+
+.foot .cta button {
+    margin-left: 150px;
+    margin-top: 0;
+}
+
+.i-logo {
+    max-width: 100vw;
+    display: flex;
+    padding: 20px;
+    justify-items: auto;
+    gap: 15px;
+}
+
+.bottom {
+    background-color: #303030;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 160px 10px 130px;
+}
+
+.bottom a {
+    color: #fff;
+}
+
+@media all and (max-width:800px) {}
